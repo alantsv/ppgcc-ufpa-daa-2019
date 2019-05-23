@@ -8,7 +8,7 @@ def __is_connected(graph):
     @rtype: bool
     '''
     node_start = list(graph)[0]
-    bfs_list = breadth_first_search(graph, node_start)
+    bfs_list = depth_first_search(graph, node_start)
     return len(bfs_list) == len(graph)
 
 def __odd_degree_nodes(graph):
