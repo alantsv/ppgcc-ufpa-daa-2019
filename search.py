@@ -1,6 +1,4 @@
-def breadth_first_search(graph, start):
-    ''' Returns a list of 
-    '''
+def depth_first_search(graph, start):
     visited, stack = set(), [start]
     while stack:
         node = stack.pop()
